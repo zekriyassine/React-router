@@ -1,13 +1,13 @@
 import React from 'react';
-import {NavLink} from 'react-router-dom'
+
 
 const Home = ()=> (
 
     <React.Fragment>
-        <p>Bienvenue sur l'accueil</p>
-        <NavLink to={`/notre-histoire/`}>
-            Aller vers la page histoire
-        </NavLink>
+        <p>
+        Bienvenue sur l'accueil
+        </p>
+        
     </React.Fragment>
 )
 
